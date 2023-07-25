@@ -1,0 +1,17 @@
+{
+  "name": "conda",
+  "secfixes": {
+    "0": [
+      "CVE-2007-4559",
+      "CVE-2018-20225",
+      "CVE-2023-36632"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}
