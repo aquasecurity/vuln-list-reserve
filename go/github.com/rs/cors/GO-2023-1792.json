@@ -1,0 +1,46 @@
+{
+  "module": "github.com/rs/cors",
+  "id": "GO-2023-1792",
+  "published": "2023-06-08T18:30:06Z",
+  "modified": "2023-06-14T18:38:37Z",
+  "aliases": [
+    "CVE-2018-20744",
+    "GHSA-927h-x4qj-r242"
+  ],
+  "details": "The CORS handler actively converts a wildcard CORS policy into reflecting an arbitrary Origin header value, which is incompatible with the CORS security design, and could lead to CORS misconfiguration security problems.",
+  "affected": [
+    {
+      "package": {
+        "name": "github.com/rs/cors",
+        "ecosystem": "Go"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "url": ""
+      },
+      "ecosystem_specific": {}
+    }
+  ],
+  "references": [
+    {
+      "type": "FIX",
+      "url": "https://github.com/rs/cors/pull/57"
+    },
+    {
+      "type": "REPORT",
+      "url": "https://github.com/rs/cors/issues/55"
+    }
+  ]
+}

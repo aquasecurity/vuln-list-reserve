@@ -1,0 +1,38 @@
+{
+  "module": "github.com/malfunkt/iprange",
+  "id": "GO-2023-1857",
+  "published": "2023-07-11T18:44:34Z",
+  "modified": "2023-07-24T16:24:24Z",
+  "aliases": [
+    "GHSA-f99h-w337-mv56"
+  ],
+  "details": "Parsing a range with a mask larger than 32 bits causes a panic.",
+  "affected": [
+    {
+      "package": {
+        "name": "github.com/malfunkt/iprange",
+        "ecosystem": "Go"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "url": ""
+      },
+      "ecosystem_specific": {}
+    }
+  ],
+  "references": [
+    {
+      "type": "REPORT",
+      "url": "https://github.com/malfunkt/iprange/issues/1"
+    }
+  ]
+}

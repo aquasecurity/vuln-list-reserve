@@ -1,0 +1,42 @@
+{
+  "module": "github.com/notaryproject/notation-go",
+  "id": "GO-2023-1589",
+  "published": "2023-07-11T18:44:01Z",
+  "modified": "2023-07-11T18:44:01Z",
+  "aliases": [
+    "CVE-2023-25656",
+    "GHSA-87x9-7grx-m28v"
+  ],
+  "details": "Parsing PKIX distinguished names containing the string \"=#\" can cause excessive memory consumption.",
+  "affected": [
+    {
+      "package": {
+        "name": "github.com/notaryproject/notation-go",
+        "ecosystem": "Go"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0-rc.3"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "url": ""
+      },
+      "ecosystem_specific": {}
+    }
+  ],
+  "references": [
+    {
+      "type": "FIX",
+      "url": "https://github.com/notaryproject/notation-go/pull/275"
+    }
+  ]
+}

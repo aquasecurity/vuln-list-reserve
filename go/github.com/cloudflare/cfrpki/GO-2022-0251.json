@@ -1,0 +1,42 @@
+{
+  "module": "github.com/cloudflare/cfrpki",
+  "id": "GO-2022-0251",
+  "published": "2022-07-15T23:07:28Z",
+  "modified": "2023-06-12T18:45:41Z",
+  "aliases": [
+    "CVE-2021-3910",
+    "GHSA-5mxh-2qfv-4g7j"
+  ],
+  "details": "OctoRPKI crashes when a repository returns an invalid ROA that is only an encoded NUL character (\\0).",
+  "affected": [
+    {
+      "package": {
+        "name": "github.com/cloudflare/cfrpki",
+        "ecosystem": "Go"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "url": ""
+      },
+      "ecosystem_specific": {}
+    }
+  ],
+  "references": [
+    {
+      "type": "FIX",
+      "url": "https://github.com/cloudflare/cfrpki/commit/76f0f7a98da001fa04e5bc0407c6702f91096bfa"
+    }
+  ]
+}

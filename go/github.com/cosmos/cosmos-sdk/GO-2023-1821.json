@@ -1,0 +1,46 @@
+{
+  "module": "github.com/cosmos/cosmos-sdk",
+  "id": "GO-2023-1821",
+  "published": "2023-07-05T17:29:41Z",
+  "modified": "2023-07-05T17:29:41Z",
+  "aliases": [
+    "GHSA-qfc5-6r3j-jj22"
+  ],
+  "details": "If an invariant check fails on a Cosmos SDK network, and a transaction is sent to the x/crisis package to halt the chain, the chain does not halt as originally intended.\n\nNo patch will be released, as the package is planned to be deprecated and replaced.",
+  "affected": [
+    {
+      "package": {
+        "name": "github.com/cosmos/cosmos-sdk",
+        "ecosystem": "Go"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "url": ""
+      },
+      "ecosystem_specific": {}
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cosmos/cosmos-sdk/security/advisories/GHSA-qfc5-6r3j-jj22"
+    },
+    {
+      "type": "REPORT",
+      "url": "https://github.com/cosmos/cosmos-sdk/issues/15325"
+    },
+    {
+      "type": "REPORT",
+      "url": "https://github.com/cosmos/cosmos-sdk/issues/15706"
+    }
+  ]
+}

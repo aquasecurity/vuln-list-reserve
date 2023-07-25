@@ -1,0 +1,50 @@
+{
+  "module": "github.com/cometbft/cometbft",
+  "id": "GO-2023-1883",
+  "published": "2023-07-13T22:19:53Z",
+  "modified": "2023-07-13T22:19:53Z",
+  "aliases": [
+    "CVE-2023-34451",
+    "GHSA-w24w-wp77-qffm"
+  ],
+  "details": "A bug in the CometBFT middleware causes the mempool's two data structures to fall out of sync. This can lead to duplicate transactions that cannot be removed, even after they are committed in a block. The only way to remove the transaction is to restart the node. This can be exploited by an attacker to bring down a node by repeatedly submitting duplicate transactions.",
+  "affected": [
+    {
+      "package": {
+        "name": "github.com/cometbft/cometbft",
+        "ecosystem": "Go"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.37.2"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "url": ""
+      },
+      "ecosystem_specific": {}
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/cometbft/cometbft/security/advisories/GHSA-w24w-wp77-qffm"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/cometbft/cometbft/pull/890"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/tendermint/tendermint/pull/2778"
+    }
+  ]
+}

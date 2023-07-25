@@ -1,0 +1,52 @@
+{
+  "module": "github.com/cosmos/cosmos-sdk",
+  "id": "GO-2023-1861",
+  "published": "2023-06-22T16:36:04Z",
+  "modified": "2023-07-13T19:34:25Z",
+  "aliases": [
+    "GHSA-j2cr-jc39-wpx5",
+    "GHSA-w44m-8mv2-v78h"
+  ],
+  "details": "The cosmos-sdk module is affected by the vulnerability codenamed \"Barberry\".",
+  "affected": [
+    {
+      "package": {
+        "name": "github.com/cosmos/cosmos-sdk",
+        "ecosystem": "Go"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.46.13"
+            },
+            {
+              "introduced": "0.47.0"
+            },
+            {
+              "fixed": "0.47.3"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "url": ""
+      },
+      "ecosystem_specific": {}
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://forum.cosmos.network/t/cosmos-sdk-security-advisory-barberry/10825"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/cosmos/cosmos-sdk/pull/16466"
+    }
+  ]
+}
