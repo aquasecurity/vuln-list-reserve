@@ -17,6 +17,12 @@
         "Url": "https://github.com/certifi/python-certifi/commit/8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-37920"
+      },
+      {
+        "Url": "https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/C-HrP1SEq1A"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-xqr8-7jwr-rhp7"
       }
     ],
@@ -35,7 +41,7 @@
     "PublishedAt": "2023-07-25T14:43:53Z",
     "Severity": "LOW",
     "Summary": "Removal of e-Tugra root certificate",
-    "UpdatedAt": "2023-07-25T14:43:54Z",
+    "UpdatedAt": "2023-07-25T23:25:26Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

@@ -17,6 +17,9 @@
         "Url": "https://github.com/vyperlang/vyper/commit/019a37ab98ff53f04fecfadf602b6cd5ac748f7f"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-37902"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-f5x6-7qgp-jhf3"
       }
     ],
@@ -35,11 +38,11 @@
     "PublishedAt": "2023-07-25T17:46:19Z",
     "Severity": "MODERATE",
     "Summary": "ecrecover can return undefined data if signature does not verify",
-    "UpdatedAt": "2023-07-25T17:46:20Z",
+    "UpdatedAt": "2023-07-25T23:24:58Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 5.3,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
     }
   },
   "Versions": [
