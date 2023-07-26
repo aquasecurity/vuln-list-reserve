@@ -41,7 +41,7 @@
     "PublishedAt": "2023-07-25T18:27:16Z",
     "Severity": "MODERATE",
     "Summary": "By-passing Cross-Site Scripting Protection in HTML Sanitizer",
-    "UpdatedAt": "2023-07-25T23:25:54Z",
+    "UpdatedAt": "2023-07-26T16:25:24Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.7,
