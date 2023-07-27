@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-26T20:26:18Z",
+  "UpdatedAt": "2023-07-27T14:58:44Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "webrick"
@@ -59,6 +59,15 @@
         "Url": "https://web.archive.org/web/20211025092552/http://www.securitytracker.com/id/1039363"
       },
       {
+        "Url": "https://github.com/ruby/ruby/commit/6617c41292"
+      },
+      {
+        "Url": "https://github.com/ruby/webrick/commit/4ac0f3843ab82d1c31e1cfc719409208adef7813"
+      },
+      {
+        "Url": "https://hackerone.com/reports/223363"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-369m-2gv6-mw28"
       }
     ],
@@ -77,7 +86,7 @@
     "PublishedAt": "2022-05-14T02:03:29Z",
     "Severity": "HIGH",
     "Summary": "WEBrick RCE Vulnerability",
-    "UpdatedAt": "2023-07-26T20:26:18Z",
+    "UpdatedAt": "2023-07-27T14:58:45Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,
@@ -87,21 +96,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "1.4.0"
       },
-      "VulnerableVersionRange": "\u003e= 2.4, \u003c= 2.4.1"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "2.3.5"
-      },
-      "VulnerableVersionRange": "\u003e= 2.3, \u003c 2.3.5"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "2.2.8"
-      },
-      "VulnerableVersionRange": "\u003c 2.2.8"
+      "VulnerableVersionRange": "\u003c 1.4.0"
     }
   ]
 }
