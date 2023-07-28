@@ -2354,7 +2354,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package msft-golang is installed with version 1.19.10-1 or earlier",
+      "Comment": "Package msft-golang is earlier than 1.19.6-1, affected by CVE-2022-41725",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13739000",
       "Version": "0",
       "Object": {
@@ -2378,7 +2378,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package msft-golang is installed with version 1.19.10-1 or earlier",
+      "Comment": "Package msft-golang is earlier than 1.19.6-1, affected by CVE-2022-41724",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13737000",
       "Version": "0",
       "Object": {
