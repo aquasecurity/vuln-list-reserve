@@ -31,13 +31,18 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-2950,SUSE-SLE-SERVER-12-SP5-2023-2950",
+      "Text": "Image SLES12-SP5-EC2-SAP-On-Demand-2023-2950,SUSE-2023-2950,SUSE-SLE-SERVER-12-SP5-2023-2950",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "openssh-7.2p2-81.4.2",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "openssh-7.2p2-81.4.2",
         "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
@@ -126,6 +131,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-EC2-SAP-On-Demand:openssh-7.2p2-81.4.2",
             "SUSE Linux Enterprise Server 12 SP5:openssh-7.2p2-81.4.2",
             "SUSE Linux Enterprise Server 12 SP5:openssh-askpass-gnome-7.2p2-81.4.2",
             "SUSE Linux Enterprise Server 12 SP5:openssh-fips-7.2p2-81.4.2",
