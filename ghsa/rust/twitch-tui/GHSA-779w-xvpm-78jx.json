@@ -27,6 +27,10 @@
       {
         "Type": "GHSA",
         "Value": "GHSA-779w-xvpm-78jx"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2023-38688"
       }
     ],
     "Description": "### Summary\nThe connection is not using TLS for communication\n\n### Details\nIn the configuration of the irc connection, [you are disabling tls](https://github.com/Xithrius/twitch-tui/blob/340afc3c8c07a83289fe6ef614aa7563c8b70756/src/twitch/connection.rs#L23) which makes all communication to twitch irc servers unencrypted.\n\n### PoC\nYou can verify by using tcpdump/wireshark that traffic is unencrypted.\n\n### Impact\nCommunication can be sniffed, even auth tokens.",
@@ -34,7 +38,7 @@
     "PublishedAt": "2023-07-31T22:02:54Z",
     "Severity": "HIGH",
     "Summary": "twitch-tui's connection is not encrypted",
-    "UpdatedAt": "2023-07-31T22:02:54Z",
+    "UpdatedAt": "2023-08-01T13:02:58Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

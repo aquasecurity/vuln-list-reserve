@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-26T22:37:31Z",
+  "UpdatedAt": "2023-08-01T17:46:34Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "croogo/croogo"
@@ -30,12 +30,12 @@
         "Value": "CVE-2017-1000510"
       }
     ],
-    "Description": "Croogo version 2.3.1-17-g6f82e6c contains a Cross Site Scripting (XSS) vulnerability in Page name that can result in execution of javascript code.",
+    "Description": "Croogo versions before 4.x contain a Cross Site Scripting (XSS) vulnerability in Page name that can result in execution of javascript code.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-14T03:41:55Z",
     "Severity": "MODERATE",
-    "Summary": "Croogo XSS",
-    "UpdatedAt": "2023-07-26T22:37:31Z",
+    "Summary": "Cross site scripting in Croogo",
+    "UpdatedAt": "2023-08-01T17:46:34Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,
@@ -45,9 +45,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
+        "Identifier": "4.0.0"
       },
-      "VulnerableVersionRange": "\u003c= 2.3.1-17-g6f82e6c"
+      "VulnerableVersionRange": "\u003c 4.0.0"
     }
   ]
 }
