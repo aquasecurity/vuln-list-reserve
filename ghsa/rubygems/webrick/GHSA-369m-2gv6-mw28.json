@@ -68,6 +68,9 @@
         "Url": "https://hackerone.com/reports/223363"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/webrick/CVE-2017-10784.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-369m-2gv6-mw28"
       }
     ],
@@ -86,7 +89,7 @@
     "PublishedAt": "2022-05-14T02:03:29Z",
     "Severity": "HIGH",
     "Summary": "WEBrick RCE Vulnerability",
-    "UpdatedAt": "2023-07-27T14:58:45Z",
+    "UpdatedAt": "2023-07-31T20:39:29Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,

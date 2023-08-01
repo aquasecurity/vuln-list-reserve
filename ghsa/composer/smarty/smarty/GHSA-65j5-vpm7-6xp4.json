@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-07-25T19:37:36Z",
+  "UpdatedAt": "2023-07-31T20:34:44Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "smarty/smarty"
@@ -38,7 +38,7 @@
     "PublishedAt": "2022-05-14T01:58:46Z",
     "Severity": "MODERATE",
     "Summary": "Smarty Path Traversal Vulnerability",
-    "UpdatedAt": "2023-07-25T19:37:36Z",
+    "UpdatedAt": "2023-07-31T20:34:44Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.9,
@@ -48,7 +48,7 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "3.1.33"
+        "Identifier": "3.1.33-dev-4"
       },
       "VulnerableVersionRange": "\u003c 3.1.33-dev-4"
     }

@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-07-26T20:29:07Z",
+  "UpdatedAt": "2023-07-31T20:46:49Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "openssl"
@@ -50,6 +50,9 @@
         "Url": "https://web.archive.org/web/20210724095519/http://www.securitytracker.com/id/1039363"
       },
       {
+        "Url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/openssl/CVE-2017-14033.yml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-v6rp-3r3v-hf4p"
       }
     ],
@@ -68,7 +71,7 @@
     "PublishedAt": "2022-05-14T02:03:26Z",
     "Severity": "HIGH",
     "Summary": "Ruby OpenSSL DoS Vulnerability",
-    "UpdatedAt": "2023-07-26T20:29:07Z",
+    "UpdatedAt": "2023-07-31T20:46:49Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -78,21 +81,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": ""
-      },
-      "VulnerableVersionRange": "\u003e= 2.4, \u003c= 2.4.1"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "2.3.5"
-      },
-      "VulnerableVersionRange": "\u003e= 2.3, \u003c 2.3.5"
-    },
-    {
-      "FirstPatchedVersion": {
         "Identifier": "2.2.8"
       },
-      "VulnerableVersionRange": "\u003c 2.2.8"
+      "VulnerableVersionRange": "\u003c 2.0.0"
     }
   ]
 }
