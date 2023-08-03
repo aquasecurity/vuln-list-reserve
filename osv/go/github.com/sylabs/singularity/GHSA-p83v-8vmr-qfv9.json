@@ -21,7 +21,9 @@
             {
               "introduced": "2.4"
             },
-            {}
+            {
+              "last_affected": "2.6"
+            }
           ]
         }
       ],

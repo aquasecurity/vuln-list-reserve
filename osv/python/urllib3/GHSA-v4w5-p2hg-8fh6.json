@@ -21,7 +21,9 @@
             {
               "introduced": "1.17"
             },
-            {}
+            {
+              "last_affected": "1.18"
+            }
           ]
         }
       ],

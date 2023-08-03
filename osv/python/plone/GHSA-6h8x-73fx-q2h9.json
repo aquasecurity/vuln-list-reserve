@@ -21,7 +21,9 @@
             {
               "introduced": "5.0rc1"
             },
-            {}
+            {
+              "last_affected": "5.1a1"
+            }
           ]
         }
       ],
