@@ -17,6 +17,9 @@
         "Url": "https://github.com/pimcore/pimcore/commit/58012d0e3b8b926fb54eccbd64ec5c993b30c22c"
       },
       {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2023-38708"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-34hj-v8fm-x887"
       }
     ],
@@ -35,11 +38,11 @@
     "PublishedAt": "2023-08-03T16:33:32Z",
     "Severity": "MODERATE",
     "Summary": "Pimcore Path Traversal Vulnerability in AssetController:importServerFilesAction",
-    "UpdatedAt": "2023-08-03T19:05:38Z",
+    "UpdatedAt": "2023-08-04T13:31:14Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 6.3,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
     }
   },
   "Versions": [
