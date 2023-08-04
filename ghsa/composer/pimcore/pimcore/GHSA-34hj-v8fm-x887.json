@@ -35,7 +35,7 @@
     "PublishedAt": "2023-08-03T16:33:32Z",
     "Severity": "MODERATE",
     "Summary": "Pimcore Path Traversal Vulnerability in AssetController:importServerFilesAction",
-    "UpdatedAt": "2023-08-03T16:33:32Z",
+    "UpdatedAt": "2023-08-03T19:05:38Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
