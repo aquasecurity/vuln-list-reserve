@@ -1,9 +1,79 @@
 {
   "RpminfoObjects": [
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27682001",
+      "Version": "1",
+      "Name": "nghttp2"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27402001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27401001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27332001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27304001",
+      "Version": "1",
+      "Name": "uclibc-ng"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27303001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27302001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27301001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27278001",
+      "Version": "1",
+      "Name": "nodejs"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27274001",
+      "Version": "1",
+      "Name": "libX11"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27241001",
       "Version": "0",
       "Name": "kata-containers-cc"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27208001",
+      "Version": "1",
+      "Name": "nodejs18"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27207001",
+      "Version": "1",
+      "Name": "nodejs"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27206001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27205001",
+      "Version": "1",
+      "Name": "libtiff"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27197001",
@@ -19,6 +89,16 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27180001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27166001",
+      "Version": "1",
+      "Name": "libtiff"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27165001",
+      "Version": "1",
+      "Name": "libtiff"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27154001",
@@ -96,6 +176,11 @@
       "Name": "openssl"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26983001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26953001",
       "Version": "1",
       "Name": "kernel"
@@ -104,6 +189,16 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:26944001",
       "Version": "1",
       "Name": "qt5-qtbase"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26938001",
+      "Version": "1",
+      "Name": "nodejs"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26937001",
+      "Version": "1",
+      "Name": "nodejs"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26914001",
@@ -119,6 +214,16 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:26877001",
       "Version": "1",
       "Name": "qt5-qtbase"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26874001",
+      "Version": "1",
+      "Name": "nodejs"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26872001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26869001",
@@ -246,6 +351,11 @@
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26405001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26394001",
       "Version": "1",
       "Name": "vim"
@@ -341,6 +451,16 @@
       "Name": "redis"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26282001",
+      "Version": "1",
+      "Name": "libxml2"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26281001",
+      "Version": "1",
+      "Name": "libxml2"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26280001",
       "Version": "1",
       "Name": "kernel"
@@ -354,6 +474,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:26241001",
       "Version": "1",
       "Name": "ncurses"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26234001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26220001",
@@ -434,6 +559,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:26153001",
       "Version": "1",
       "Name": "libyang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26152001",
+      "Version": "1",
+      "Name": "libtiff"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26142001",
@@ -681,6 +811,21 @@
       "Name": "dnsmasq"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25654001",
+      "Version": "1",
+      "Name": "liblouis"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25653001",
+      "Version": "1",
+      "Name": "liblouis"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25652001",
+      "Version": "1",
+      "Name": "liblouis"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:25636001",
       "Version": "3",
       "Name": "vim"
@@ -817,7 +962,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13827001",
-      "Version": "0",
+      "Version": "1",
       "Name": "nodejs"
     },
     {
@@ -1562,7 +1707,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13173001",
-      "Version": "0",
+      "Version": "1",
       "Name": "nodejs"
     },
     {
@@ -3722,7 +3867,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10442001",
-      "Version": "0",
+      "Version": "1",
       "Name": "libxml2"
     },
     {
