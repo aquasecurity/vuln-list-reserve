@@ -2282,7 +2282,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package qt5-qtbase is installed with version 5.12.11-8 or earlier",
+      "Comment": "Package qt5-qtbase is installed with version 5.12.11-9 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13829000",
       "Version": "0",
       "Object": {
@@ -2390,7 +2390,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.118.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.122.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13820000",
       "Version": "0",
       "Object": {
@@ -2678,7 +2678,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.118.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.122.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13743000",
       "Version": "0",
       "Object": {
@@ -2834,7 +2834,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package reaper is installed with version 3.1.1-5 or earlier",
+      "Comment": "Package reaper is installed with version 3.1.1-6 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13704000",
       "Version": "0",
       "Object": {
@@ -3902,7 +3902,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package qt5-qtbase is installed with version 5.12.11-8 or earlier",
+      "Comment": "Package qt5-qtbase is installed with version 5.12.11-9 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13231000",
       "Version": "0",
       "Object": {
@@ -3950,7 +3950,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package bind is installed with version 9.16.33-1 or earlier",
+      "Comment": "Package bind is installed with version 9.16.33-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13227000",
       "Version": "0",
       "Object": {
@@ -3974,7 +3974,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package openssh is installed with version 8.8p1-7 or earlier",
+      "Comment": "Package openssh is installed with version 8.9p1-1 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13213000",
       "Version": "0",
       "Object": {
@@ -4010,7 +4010,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package bind is installed with version 9.16.33-1 or earlier",
+      "Comment": "Package bind is installed with version 9.16.33-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13204000",
       "Version": "0",
       "Object": {
@@ -4022,7 +4022,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package bind is installed with version 9.16.33-1 or earlier",
+      "Comment": "Package bind is installed with version 9.16.33-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13203000",
       "Version": "0",
       "Object": {
@@ -4082,7 +4082,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package protobuf is installed with version 3.17.3-1 or earlier",
+      "Comment": "Package protobuf is installed with version 3.17.3-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:13174000",
       "Version": "0",
       "Object": {
@@ -4706,7 +4706,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.118.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.122.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:12989000",
       "Version": "0",
       "Object": {
@@ -4862,7 +4862,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package rpm-ostree is installed with version 2022.1-4 or earlier",
+      "Comment": "Package rpm-ostree is installed with version 2022.1-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:12937000",
       "Version": "0",
       "Object": {
@@ -5294,7 +5294,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.118.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.122.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11614000",
       "Version": "0",
       "Object": {
@@ -5942,7 +5942,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.118.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.122.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11484000",
       "Version": "0",
       "Object": {
@@ -7130,7 +7130,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package dhcp is installed with version 4.4.2-4 or earlier",
+      "Comment": "Package dhcp is installed with version 4.4.2-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11109000",
       "Version": "0",
       "Object": {
@@ -7142,7 +7142,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package dhcp is installed with version 4.4.2-4 or earlier",
+      "Comment": "Package dhcp is installed with version 4.4.2-5 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:11108000",
       "Version": "0",
       "Object": {
@@ -7754,7 +7754,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.118.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.122.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10903000",
       "Version": "0",
       "Object": {
@@ -7766,7 +7766,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.118.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.122.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10902000",
       "Version": "0",
       "Object": {
@@ -7778,7 +7778,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.118.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.122.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10901000",
       "Version": "0",
       "Object": {
@@ -8258,7 +8258,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.118.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.122.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:10761000",
       "Version": "0",
       "Object": {
@@ -12254,7 +12254,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package kernel is installed with version 5.15.118.1-1 or earlier",
+      "Comment": "Package kernel is installed with version 5.15.122.1-2 or earlier",
       "ID": "oval:com.microsoft.cbl-mariner:tst:9301000",
       "Version": "0",
       "Object": {
