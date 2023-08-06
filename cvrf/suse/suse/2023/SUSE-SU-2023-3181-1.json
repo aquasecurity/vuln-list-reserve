@@ -31,13 +31,18 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3181,SUSE-SLE-Module-Development-Tools-15-SP4-2023-3181,SUSE-SLE-Module-Development-Tools-15-SP5-2023-3181,openSUSE-SLE-15.4-2023-3181,openSUSE-SLE-15.5-2023-3181",
+      "Text": "Container bci/golang:latest-2023-3181,SUSE-2023-3181,SUSE-SLE-Module-Development-Tools-15-SP4-2023-3181,SUSE-SLE-Module-Development-Tools-15-SP5-2023-3181,openSUSE-SLE-15.4-2023-3181,openSUSE-SLE-15.5-2023-3181",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "go1.20-1.20.7-150000.1.20.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "go1.20-1.20.7-150000.1.20.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP4",
@@ -150,6 +155,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container bci/golang:latest:go1.20-1.20.7-150000.1.20.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.20-1.20.7-150000.1.20.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.20-doc-1.20.7-150000.1.20.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.20-race-1.20.7-150000.1.20.1",

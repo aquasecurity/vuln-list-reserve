@@ -31,13 +31,28 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-2888,SUSE-SLE-HA-12-SP5-2023-2888,SUSE-SLE-SDK-12-SP5-2023-2888,SUSE-SLE-SERVER-12-SP5-2023-2888",
+      "Text": "Image SLES12-SP5-EC2-SAP-On-Demand-2023-2888,SUSE-2023-2888,SUSE-SLE-HA-12-SP5-2023-2888,SUSE-SLE-SDK-12-SP5-2023-2888,SUSE-SLE-SERVER-12-SP5-2023-2888",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "ctdb-4.15.13+git.621.c8ae836ff82-3.85.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-libs-4.15.13+git.621.c8ae836ff82-3.85.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.15.13+git.621.c8ae836ff82-3.85.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "ctdb-4.15.13+git.621.c8ae836ff82-3.85.1",
         "RelatesToProductReference": "SUSE Linux Enterprise High Availability Extension 12 SP5",
@@ -339,6 +354,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-EC2-SAP-On-Demand:ctdb-4.15.13+git.621.c8ae836ff82-3.85.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:samba-client-libs-4.15.13+git.621.c8ae836ff82-3.85.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:samba-libs-4.15.13+git.621.c8ae836ff82-3.85.1",
             "SUSE Linux Enterprise High Availability Extension 12 SP5:ctdb-4.15.13+git.621.c8ae836ff82-3.85.1",
             "SUSE Linux Enterprise Server 12 SP5:libsamba-policy-python3-devel-4.15.13+git.621.c8ae836ff82-3.85.1",
             "SUSE Linux Enterprise Server 12 SP5:libsamba-policy0-python3-32bit-4.15.13+git.621.c8ae836ff82-3.85.1",
@@ -412,6 +430,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-EC2-SAP-On-Demand:ctdb-4.15.13+git.621.c8ae836ff82-3.85.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:samba-client-libs-4.15.13+git.621.c8ae836ff82-3.85.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:samba-libs-4.15.13+git.621.c8ae836ff82-3.85.1",
             "SUSE Linux Enterprise High Availability Extension 12 SP5:ctdb-4.15.13+git.621.c8ae836ff82-3.85.1",
             "SUSE Linux Enterprise Server 12 SP5:libsamba-policy-python3-devel-4.15.13+git.621.c8ae836ff82-3.85.1",
             "SUSE Linux Enterprise Server 12 SP5:libsamba-policy0-python3-32bit-4.15.13+git.621.c8ae836ff82-3.85.1",
@@ -485,6 +506,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-EC2-SAP-On-Demand:ctdb-4.15.13+git.621.c8ae836ff82-3.85.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:samba-client-libs-4.15.13+git.621.c8ae836ff82-3.85.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:samba-libs-4.15.13+git.621.c8ae836ff82-3.85.1",
             "SUSE Linux Enterprise High Availability Extension 12 SP5:ctdb-4.15.13+git.621.c8ae836ff82-3.85.1",
             "SUSE Linux Enterprise Server 12 SP5:libsamba-policy-python3-devel-4.15.13+git.621.c8ae836ff82-3.85.1",
             "SUSE Linux Enterprise Server 12 SP5:libsamba-policy0-python3-32bit-4.15.13+git.621.c8ae836ff82-3.85.1",
@@ -558,6 +582,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-EC2-SAP-On-Demand:ctdb-4.15.13+git.621.c8ae836ff82-3.85.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:samba-client-libs-4.15.13+git.621.c8ae836ff82-3.85.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:samba-libs-4.15.13+git.621.c8ae836ff82-3.85.1",
             "SUSE Linux Enterprise High Availability Extension 12 SP5:ctdb-4.15.13+git.621.c8ae836ff82-3.85.1",
             "SUSE Linux Enterprise Server 12 SP5:libsamba-policy-python3-devel-4.15.13+git.621.c8ae836ff82-3.85.1",
             "SUSE Linux Enterprise Server 12 SP5:libsamba-policy0-python3-32bit-4.15.13+git.621.c8ae836ff82-3.85.1",

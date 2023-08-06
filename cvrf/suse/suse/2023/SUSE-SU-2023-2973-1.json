@@ -110,6 +110,10 @@
         {
           "URL": "https://bugzilla.suse.com/1213487",
           "Description": "SUSE Bug 1213487"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213853",
+          "Description": "SUSE Bug 1213853"
         }
       ],
       "ProductStatuses": [

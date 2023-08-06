@@ -289,6 +289,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-tftpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-pyasn1-0.4.2-3.2.1",
         "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
         "RelationType": "Default Component Of"
@@ -3484,6 +3489,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
         "RelationType": "Default Component Of"
@@ -3504,6 +3514,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
         "RelationType": "Default Component Of"
@@ -3524,6 +3539,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
         "RelationType": "Default Component Of"
@@ -3540,6 +3560,11 @@
       },
       {
         "ProductReference": "python3-pycparser-2.17-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
         "RelationType": "Default Component Of"
       },
@@ -3560,6 +3585,11 @@
       },
       {
         "ProductReference": "python3-pycparser-2.17-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud",
         "RelationType": "Default Component Of"
       },
@@ -4355,6 +4385,11 @@
       },
       {
         "ProductReference": "python3-pycparser-2.17-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4",
         "RelationType": "Default Component Of"
       },
@@ -4495,6 +4530,11 @@
       },
       {
         "ProductReference": "python3-pycparser-2.17-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-EC2",
         "RelationType": "Default Component Of"
       },
@@ -6694,6 +6734,7 @@
             "Container suse/manager/4.3/proxy-tftpd:latest:python3-cffi-1.13.2-3.2.5",
             "Container suse/manager/4.3/proxy-tftpd:latest:python3-pyasn1-0.4.2-3.2.1",
             "Container suse/manager/4.3/proxy-tftpd:latest:python3-pycparser-2.17-3.2.1",
+            "Container suse/manager/4.3/proxy-tftpd:latest:python3-requests-2.24.0-3.2.1",
             "Container suse/sle-micro-rancher/5.2:latest:python3-pyasn1-0.4.2-3.2.1",
             "Container suse/sles/15.3/virt-launcher:0.45.0:python3-asn1crypto-0.24.0-3.2.1",
             "Container suse/sles/15.3/virt-launcher:0.45.0:python3-cffi-1.13.2-3.2.5",
@@ -7329,22 +7370,27 @@
             "Image SLES15-SP4-CHOST-BYOS-Aliyun:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-CHOST-BYOS-Aliyun:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-CHOST-BYOS-Aliyun:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-CHOST-BYOS-Azure:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-CHOST-BYOS-Azure:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-CHOST-BYOS-Azure:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-CHOST-BYOS-Azure:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-CHOST-BYOS-EC2:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-CHOST-BYOS-EC2:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-CHOST-BYOS-EC2:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-CHOST-BYOS-EC2:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-CHOST-BYOS:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-CHOST-BYOS:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-CHOST-BYOS:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-CHOST-BYOS:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-CHOST-BYOS:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-EC2-ECS-HVM:aws-cli-1.19.9-26.1",
             "Image SLES15-SP4-EC2-ECS-HVM:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-EC2-ECS-HVM:python3-boto3-1.17.9-19.1",
@@ -7528,6 +7574,7 @@
             "Image SLES15-SP4-Micro-5-4-EC2:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-Micro-5-4-EC2:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-Micro-5-4-EC2:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-Micro-5-4-EC2:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-Micro-5-4-GCE:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-Micro-5-4-GCE:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-Micro-5-4-GCE:python3-pyasn1-0.4.2-3.2.1",
@@ -7537,6 +7584,7 @@
             "Image SLES15-SP4-Micro-5-4:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP4-Micro-5-4:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP4-Micro-5-4:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP4-Micro-5-4:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:python3-boto3-1.17.9-19.1",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:python3-botocore-1.20.9-33.1",

@@ -849,6 +849,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "grub2-x86_64-xen-2.06-150400.11.5.2",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "grub2-2.06-150400.11.5.2",
         "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-Azure",
         "RelationType": "Default Component Of"
@@ -1837,6 +1842,7 @@
             "Image SLES15-SP4-Micro-5-4:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-4:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-4:grub2-x86_64-efi-2.06-150400.11.5.2",
+            "Image SLES15-SP4-Micro-5-4:grub2-x86_64-xen-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-x86_64-efi-2.06-150400.11.5.2",
@@ -2165,6 +2171,7 @@
             "Image SLES15-SP4-Micro-5-4:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-4:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-4:grub2-x86_64-efi-2.06-150400.11.5.2",
+            "Image SLES15-SP4-Micro-5-4:grub2-x86_64-xen-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-x86_64-efi-2.06-150400.11.5.2",
@@ -2501,6 +2508,7 @@
             "Image SLES15-SP4-Micro-5-4:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-4:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-4:grub2-x86_64-efi-2.06-150400.11.5.2",
+            "Image SLES15-SP4-Micro-5-4:grub2-x86_64-xen-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-x86_64-efi-2.06-150400.11.5.2",
@@ -2837,6 +2845,7 @@
             "Image SLES15-SP4-Micro-5-4:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-4:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-4:grub2-x86_64-efi-2.06-150400.11.5.2",
+            "Image SLES15-SP4-Micro-5-4:grub2-x86_64-xen-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-x86_64-efi-2.06-150400.11.5.2",
@@ -3169,6 +3178,7 @@
             "Image SLES15-SP4-Micro-5-4:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-4:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-4:grub2-x86_64-efi-2.06-150400.11.5.2",
+            "Image SLES15-SP4-Micro-5-4:grub2-x86_64-xen-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-x86_64-efi-2.06-150400.11.5.2",
@@ -3497,6 +3507,7 @@
             "Image SLES15-SP4-Micro-5-4:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-4:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-4:grub2-x86_64-efi-2.06-150400.11.5.2",
+            "Image SLES15-SP4-Micro-5-4:grub2-x86_64-xen-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-x86_64-efi-2.06-150400.11.5.2",
@@ -3833,6 +3844,7 @@
             "Image SLES15-SP4-Micro-5-4:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-4:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-Micro-5-4:grub2-x86_64-efi-2.06-150400.11.5.2",
+            "Image SLES15-SP4-Micro-5-4:grub2-x86_64-xen-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-i386-pc-2.06-150400.11.5.2",
             "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:grub2-x86_64-efi-2.06-150400.11.5.2",

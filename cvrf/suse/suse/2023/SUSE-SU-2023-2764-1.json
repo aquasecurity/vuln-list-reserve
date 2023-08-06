@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sles12sp5:latest-2023-2764,Image SLES12-SP5-Azure-Basic-On-Demand-2023-2764,Image SLES12-SP5-Azure-HPC-BYOS-2023-2764,Image SLES12-SP5-Azure-HPC-On-Demand-2023-2764,Image SLES12-SP5-Azure-SAP-On-Demand-2023-2764,Image SLES12-SP5-Azure-Standard-On-Demand-2023-2764,Image SLES12-SP5-GCE-BYOS-2023-2764,Image SLES12-SP5-GCE-SAP-BYOS-2023-2764,Image SLES12-SP5-GCE-SAP-On-Demand-2023-2764,SUSE-2023-2764,SUSE-SLE-SDK-12-SP5-2023-2764,SUSE-SLE-SERVER-12-SP5-2023-2764",
+      "Text": "Container suse/sles12sp5:latest-2023-2764,Image SLES12-SP5-Azure-Basic-On-Demand-2023-2764,Image SLES12-SP5-Azure-HPC-BYOS-2023-2764,Image SLES12-SP5-Azure-HPC-On-Demand-2023-2764,Image SLES12-SP5-Azure-SAP-On-Demand-2023-2764,Image SLES12-SP5-Azure-Standard-On-Demand-2023-2764,Image SLES12-SP5-EC2-SAP-On-Demand-2023-2764,Image SLES12-SP5-GCE-BYOS-2023-2764,Image SLES12-SP5-GCE-SAP-BYOS-2023-2764,Image SLES12-SP5-GCE-SAP-On-Demand-2023-2764,SUSE-2023-2764,SUSE-SLE-SDK-12-SP5-2023-2764,SUSE-SLE-SERVER-12-SP5-2023-2764",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -66,6 +66,11 @@
       {
         "ProductReference": "libcap2-2.26-14.9.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcap2-2.26-14.9.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -182,6 +187,7 @@
             "Image SLES12-SP5-Azure-HPC-On-Demand:libcap2-2.26-14.9.1",
             "Image SLES12-SP5-Azure-SAP-On-Demand:libcap2-2.26-14.9.1",
             "Image SLES12-SP5-Azure-Standard-On-Demand:libcap2-2.26-14.9.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:libcap2-2.26-14.9.1",
             "Image SLES12-SP5-GCE-BYOS:libcap2-2.26-14.9.1",
             "Image SLES12-SP5-GCE-SAP-BYOS:libcap2-2.26-14.9.1",
             "Image SLES12-SP5-GCE-SAP-On-Demand:libcap2-2.26-14.9.1",

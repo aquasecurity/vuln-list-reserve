@@ -141,7 +141,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-3727",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Use after free in WebRTC in Google Chrome prior to 115.0.5790.98 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
       "Threats": [
         {
           "Type": "Impact",
@@ -177,7 +177,7 @@
     },
     {
       "CVE": "CVE-2023-3728",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Use after free in WebRTC in Google Chrome prior to 115.0.5790.98 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
       "Threats": [
         {
           "Type": "Impact",
@@ -213,7 +213,7 @@
     },
     {
       "CVE": "CVE-2023-3730",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Use after free in Tab Groups in Google Chrome prior to 115.0.5790.98 allowed a remote attacker who convinced a user to engage in specific UI interactions to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
       "Threats": [
         {
           "Type": "Impact",
@@ -249,7 +249,7 @@
     },
     {
       "CVE": "CVE-2023-3732",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Out of bounds memory access in Mojo in Google Chrome prior to 115.0.5790.98 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
       "Threats": [
         {
           "Type": "Impact",
@@ -285,7 +285,7 @@
     },
     {
       "CVE": "CVE-2023-3733",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Inappropriate implementation in WebApp Installs in Google Chrome prior to 115.0.5790.98 allowed a remote attacker to potentially spoof the contents of the Omnibox (URL bar) via a crafted HTML page. (Chromium security severity: Medium)",
       "Threats": [
         {
           "Type": "Impact",
@@ -321,7 +321,7 @@
     },
     {
       "CVE": "CVE-2023-3734",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Inappropriate implementation in Picture In Picture in Google Chrome prior to 115.0.5790.98 allowed a remote attacker to potentially spoof the contents of the Omnibox (URL bar) via a crafted HTML page. (Chromium security severity: Medium)",
       "Threats": [
         {
           "Type": "Impact",
@@ -357,7 +357,7 @@
     },
     {
       "CVE": "CVE-2023-3735",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Inappropriate implementation in Web API Permission Prompts in Google Chrome prior to 115.0.5790.98 allowed a remote attacker to obfuscate security UI via a crafted HTML page. (Chromium security severity: Medium)",
       "Threats": [
         {
           "Type": "Impact",
@@ -393,7 +393,7 @@
     },
     {
       "CVE": "CVE-2023-3736",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Inappropriate implementation in Custom Tabs in Google Chrome on Android prior to 115.0.5790.98 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: Medium)",
       "Threats": [
         {
           "Type": "Impact",
@@ -429,7 +429,7 @@
     },
     {
       "CVE": "CVE-2023-3737",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Inappropriate implementation in Notifications in Google Chrome prior to 115.0.5790.98 allowed a remote attacker to spoof the contents of media notifications via a crafted HTML page. (Chromium security severity: Medium)",
       "Threats": [
         {
           "Type": "Impact",
@@ -465,7 +465,7 @@
     },
     {
       "CVE": "CVE-2023-3738",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Inappropriate implementation in Autofill in Google Chrome prior to 115.0.5790.98 allowed a remote attacker to obfuscate security UI via a crafted HTML page. (Chromium security severity: Medium)",
       "Threats": [
         {
           "Type": "Impact",
@@ -501,7 +501,7 @@
     },
     {
       "CVE": "CVE-2023-3740",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "Insufficient validation of untrusted input in Themes in Google Chrome prior to 115.0.5790.98 allowed a remote attacker to potentially serve malicious content to a user via a crafted background URL. (Chromium security severity: Low)",
       "Threats": [
         {
           "Type": "Impact",
