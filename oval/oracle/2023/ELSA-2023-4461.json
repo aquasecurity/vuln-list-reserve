@@ -60,26 +60,54 @@
     "Operator": "AND",
     "Criterias": [
       {
-        "Operator": "AND",
+        "Operator": "OR",
         "Criterias": [
           {
             "Operator": "AND",
-            "Criterias": null,
+            "Criterias": [
+              {
+                "Operator": "AND",
+                "Criterias": null,
+                "Criterions": [
+                  {
+                    "Comment": "firefox is earlier than 0:102.14.0-1.0.1.el7_9"
+                  },
+                  {
+                    "Comment": "firefox is signed with the Oracle Linux 7 key"
+                  }
+                ]
+              }
+            ],
             "Criterions": [
               {
-                "Comment": "firefox is earlier than 0:102.14.0-1.0.1.el7_9"
-              },
+                "Comment": "Oracle Linux arch is aarch64"
+              }
+            ]
+          },
+          {
+            "Operator": "AND",
+            "Criterias": [
               {
-                "Comment": "firefox is signed with the Oracle Linux 7 key"
+                "Operator": "AND",
+                "Criterias": null,
+                "Criterions": [
+                  {
+                    "Comment": "firefox is earlier than 0:102.14.0-1.0.1.el7_9"
+                  },
+                  {
+                    "Comment": "firefox is signed with the Oracle Linux 7 key"
+                  }
+                ]
+              }
+            ],
+            "Criterions": [
+              {
+                "Comment": "Oracle Linux arch is x86_64"
               }
             ]
           }
         ],
-        "Criterions": [
-          {
-            "Comment": "Oracle Linux arch is x86_64"
-          }
-        ]
+        "Criterions": null
       }
     ],
     "Criterions": [
@@ -137,6 +165,6 @@
     }
   ],
   "Issued": {
-    "Date": "2023-08-04"
+    "Date": "2023-08-06"
   }
 }
