@@ -35,6 +35,9 @@
         "Url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YO32YDJ74DADC7CMJNLSLBVWN5EXGF5J/"
       },
       {
+        "Url": "https://lists.debian.org/debian-lts-announce/2023/08/msg00003.html"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-jj47-x69x-mxrm"
       }
     ],
@@ -53,7 +56,7 @@
     "PublishedAt": "2022-04-05T15:55:51Z",
     "Severity": "MODERATE",
     "Summary": "Buffer Overflow in yajl-ruby",
-    "UpdatedAt": "2023-07-27T16:11:35Z",
+    "UpdatedAt": "2023-08-08T18:34:55Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.9,
