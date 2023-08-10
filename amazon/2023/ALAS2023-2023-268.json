@@ -5,7 +5,7 @@
     "date": "2023-07-19 21:24"
   },
   "updated": {
-    "date": "2023-07-19 21:24"
+    "date": "2023-07-26 23:51"
   },
   "severity": "Medium",
   "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2023-29824:\n\tA use-after-free issue was discovered in Py_FindObjects() function in SciPy versions prior to 1.8.0.\n",
