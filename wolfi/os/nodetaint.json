@@ -1,10 +1,11 @@
 {
-  "name": "tkn",
+  "name": "nodetaint",
   "secfixes": {
     "0": [
-      "GHSA-2h5h-59f5-c5x9",
-      "GHSA-frqx-jfcm-6jjr",
-      "GHSA-w2h3-vvvq-3m53"
+      "CVE-2019-11255",
+      "CVE-2020-8554",
+      "CVE-2021-25740",
+      "CVE-2023-2431"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

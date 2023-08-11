@@ -1,10 +1,10 @@
 {
-  "name": "tkn",
+  "name": "kots",
   "secfixes": {
     "0": [
-      "GHSA-2h5h-59f5-c5x9",
-      "GHSA-frqx-jfcm-6jjr",
-      "GHSA-w2h3-vvvq-3m53"
+      "CVE-2020-26290",
+      "CVE-2020-27847",
+      "CVE-2022-39222"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
