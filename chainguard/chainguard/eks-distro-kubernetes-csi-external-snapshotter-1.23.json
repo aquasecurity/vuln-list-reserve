@@ -1,10 +1,8 @@
 {
-  "name": "tkn",
+  "name": "eks-distro-kubernetes-csi-external-snapshotter-1.23",
   "secfixes": {
-    "0": [
-      "GHSA-2h5h-59f5-c5x9",
-      "GHSA-frqx-jfcm-6jjr",
-      "GHSA-w2h3-vvvq-3m53"
+    "1.23.28-r0": [
+      "CVE-2022-41723"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
