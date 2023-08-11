@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-08-03T16:36:34Z",
+  "UpdatedAt": "2023-08-10T22:16:48Z",
   "Package": {
     "Ecosystem": "RUBYGEMS",
     "Name": "protocol-http1"
@@ -42,12 +42,12 @@
         "Value": "CVE-2023-38697"
       }
     ],
-    "Description": "### Impact\n\n[RFC 9112 Section 7.1](https://www.rfc-editor.org/rfc/rfc9112#name-chunked-transfer-coding) defined the format of chunk size, chunk data and chunk extension (detailed ABNF is in Appendix section).\n\nIn summary:\n\n- The value of Content-Length header should be a string of 0-9 digits.\n- The chunk size should be a string of hex digits and should split from chunk data using CRLF.\n- The chunk extension shouldn't contain any invisible character.\n\nHowever, we found that Falcon has following behaviors while disobey the corresponding RFCs.\n\n- Falcon accepts Content-Length header values that have \"+\" prefix.\n- Falcon accepts Content-Length header values that written in hexadecimal with \"0x\" prefix.\n- Falcon accepts \"0x\" and \"+\" prefixed chunk size.\n- Falcon accepts LF in chunk extension.\n\nThis behavior can lead to desync when forwarding through multiple HTTP parsers, potentially results in HTTP request smuggling and firewall bypassing. Note that while these issues were reproduced in Falcon (the server), the issue is with `protocol-http1` which implements the HTTP/1 protocol parser. We have not yet been advised of any real world exploit or practical attack.\n\n### Patches\n\nFixed in `protocol-http1` v0.15.1+.\n\n### Workarounds\n\nNo.\n\n### References\n\nhttps://github.com/socketry/protocol-http1/pull/20",
+    "Description": "### Impact\n\n[RFC 9112 Section 7.1](https://www.rfc-editor.org/rfc/rfc9112#name-chunked-transfer-coding) defined the format of chunk size, chunk data and chunk extension (detailed ABNF is in Appendix section).\n\nIn summary:\n\n- The value of Content-Length header should be a string of 0-9 digits.\n- The chunk size should be a string of hex digits and should split from chunk data using CRLF.\n- The chunk extension shouldn't contain any invisible character.\n\nHowever, we found that Falcon has following behaviors while disobey the corresponding RFCs.\n\n- Falcon accepts Content-Length header values that have \"+\" prefix.\n- Falcon accepts Content-Length header values that written in hexadecimal with \"0x\" prefix.\n- Falcon accepts \"0x\" and \"+\" prefixed chunk size.\n- Falcon accepts LF in chunk extension.\n\nThis behavior can lead to desync when forwarding through multiple HTTP parsers, potentially results in HTTP request smuggling and firewall bypassing. Note that while these issues were reproduced in Falcon (the server), the issue is with `protocol-http1` which implements the HTTP/1 protocol parser. We have not yet been advised of any real world exploit or practical attack.\n\n### Patches\n\nFixed in `protocol-http1` v0.15.1+.\n\n### Workarounds\n\nNone.\n\n### References\n\nhttps://github.com/socketry/protocol-http1/pull/20",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2023-08-03T16:36:34Z",
     "Severity": "MODERATE",
     "Summary": "protocol-http1 HTTP Request/Response Smuggling vulnerability",
-    "UpdatedAt": "2023-08-08T18:35:20Z",
+    "UpdatedAt": "2023-08-10T22:16:48Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.8,

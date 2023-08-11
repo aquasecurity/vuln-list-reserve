@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-08-09T14:39:21Z",
+  "UpdatedAt": "2023-08-10T21:46:18Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "prestashop/prestashop"
@@ -38,7 +38,7 @@
     "PublishedAt": "2023-08-09T14:39:21Z",
     "Severity": "MODERATE",
     "Summary": "PrestaShop file deletion via CustomerMessage",
-    "UpdatedAt": "2023-08-09T14:39:21Z",
+    "UpdatedAt": "2023-08-10T21:46:18Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,
