@@ -1,15 +1,10 @@
 {
-  "name": "argo-cd",
+  "name": "hubble-ui-backend",
   "secfixes": {
-    "0": [
-      "CVE-2019-11255"
-    ],
-    "2.7.3-r1": [
-      "CVE-2023-1732"
-    ],
-    "2.7.7-r1": [
-      "CVE-2023-2727",
-      "CVE-2023-2728"
+    "0.12.0-r0": [
+      "CVE-2023-29002",
+      "CVE-2023-30851",
+      "CVE-2023-34242"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
