@@ -1,8 +1,8 @@
 {
-  "name": "tekton-pipelines-resolvers",
+  "name": "aws-ebs-csi-driver",
   "secfixes": {
     "0": [
-      "CVE-2023-1732"
+      "CVE-2019-11255"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
