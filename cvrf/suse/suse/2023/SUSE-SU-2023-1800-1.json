@@ -1211,6 +1211,10 @@
         {
           "URL": "https://bugzilla.suse.com/1208599",
           "Description": "SUSE Bug 1208599"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1214019",
+          "Description": "SUSE Bug 1214019"
         }
       ],
       "ProductStatuses": [

@@ -31,13 +31,18 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-3096,SUSE-SLE-Module-Legacy-12-2023-3096,SUSE-SLE-SAP-12-SP4-2023-3096,SUSE-SLE-SAP-12-SP5-2023-3096",
+      "Text": "Image SLES12-SP5-EC2-SAP-BYOS-2023-3096,SUSE-2023-3096,SUSE-SLE-Module-Legacy-12-2023-3096,SUSE-SLE-SAP-12-SP4-2023-3096,SUSE-SLE-SAP-12-SP5-2023-3096",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-106.58.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "libopenssl0_9_8-0.9.8j-106.58.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 12",
@@ -120,12 +125,17 @@
         {
           "URL": "https://bugzilla.suse.com/1213146",
           "Description": "SUSE Bug 1213146"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1213289",
+          "Description": "SUSE Bug 1213289"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-EC2-SAP-BYOS:libopenssl0_9_8-0.9.8j-106.58.1",
             "SUSE Linux Enterprise Module for Legacy 12:libopenssl0_9_8-0.9.8j-106.58.1",
             "SUSE Linux Enterprise Module for Legacy 12:libopenssl0_9_8-32bit-0.9.8j-106.58.1",
             "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libopenssl0_9_8-0.9.8j-106.58.1",
@@ -162,6 +172,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-EC2-SAP-BYOS:libopenssl0_9_8-0.9.8j-106.58.1",
             "SUSE Linux Enterprise Module for Legacy 12:libopenssl0_9_8-0.9.8j-106.58.1",
             "SUSE Linux Enterprise Module for Legacy 12:libopenssl0_9_8-32bit-0.9.8j-106.58.1",
             "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libopenssl0_9_8-0.9.8j-106.58.1",

@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-EC2-SAP-On-Demand-2023-2964,SUSE-2023-2964,SUSE-SLE-SDK-12-SP5-2023-2964,SUSE-SLE-SERVER-12-SP5-2023-2964",
+      "Text": "Image SLES12-SP5-EC2-BYOS-2023-2964,Image SLES12-SP5-EC2-ECS-On-Demand-2023-2964,Image SLES12-SP5-EC2-On-Demand-2023-2964,Image SLES12-SP5-EC2-SAP-BYOS-2023-2964,Image SLES12-SP5-EC2-SAP-On-Demand-2023-2964,Image SLES12-SP5-GCE-On-Demand-2023-2964,SUSE-2023-2964,SUSE-SLE-SDK-12-SP5-2023-2964,SUSE-SLE-SERVER-12-SP5-2023-2964",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,7 +40,32 @@
     "Relationships": [
       {
         "ProductReference": "libopenssl1_1-1.1.1d-2.92.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.92.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.92.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.92.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.92.1",
         "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.92.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -155,7 +180,12 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES12-SP5-EC2-BYOS:libopenssl1_1-1.1.1d-2.92.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:libopenssl1_1-1.1.1d-2.92.1",
+            "Image SLES12-SP5-EC2-On-Demand:libopenssl1_1-1.1.1d-2.92.1",
+            "Image SLES12-SP5-EC2-SAP-BYOS:libopenssl1_1-1.1.1d-2.92.1",
             "Image SLES12-SP5-EC2-SAP-On-Demand:libopenssl1_1-1.1.1d-2.92.1",
+            "Image SLES12-SP5-GCE-On-Demand:libopenssl1_1-1.1.1d-2.92.1",
             "SUSE Linux Enterprise Server 12 SP5:libopenssl1_1-1.1.1d-2.92.1",
             "SUSE Linux Enterprise Server 12 SP5:libopenssl1_1-32bit-1.1.1d-2.92.1",
             "SUSE Linux Enterprise Server 12 SP5:libopenssl1_1-hmac-1.1.1d-2.92.1",

@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sles12sp5:latest-2023-3012,SUSE-2023-3012,SUSE-SLE-SDK-12-SP5-2023-3012,SUSE-SLE-SERVER-12-SP5-2023-3012",
+      "Text": "Container suse/sles12sp5:latest-2023-3012,Image SLES12-SP5-EC2-BYOS-2023-3012,Image SLES12-SP5-EC2-ECS-On-Demand-2023-3012,Image SLES12-SP5-EC2-On-Demand-2023-3012,Image SLES12-SP5-EC2-SAP-BYOS-2023-3012,Image SLES12-SP5-GCE-On-Demand-2023-3012,SUSE-2023-3012,SUSE-SLE-SDK-12-SP5-2023-3012,SUSE-SLE-SERVER-12-SP5-2023-3012",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -46,6 +46,56 @@
       {
         "ProductReference": "openssl-1_0_0-1.0.2p-3.81.1",
         "RelatesToProductReference": "Container suse/sles12sp5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_0_0-1.0.2p-3.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_0_0-1.0.2p-3.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_0_0-1.0.2p-3.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_0_0-1.0.2p-3.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_0_0-1.0.2p-3.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_0_0-1.0.2p-3.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_0_0-1.0.2p-3.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_0_0-1.0.2p-3.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_0_0-1.0.2p-3.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_0_0-1.0.2p-3.81.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -182,6 +232,16 @@
           "ProductID": [
             "Container suse/sles12sp5:latest:libopenssl1_0_0-1.0.2p-3.81.1",
             "Container suse/sles12sp5:latest:openssl-1_0_0-1.0.2p-3.81.1",
+            "Image SLES12-SP5-EC2-BYOS:libopenssl1_0_0-1.0.2p-3.81.1",
+            "Image SLES12-SP5-EC2-BYOS:openssl-1_0_0-1.0.2p-3.81.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:libopenssl1_0_0-1.0.2p-3.81.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:openssl-1_0_0-1.0.2p-3.81.1",
+            "Image SLES12-SP5-EC2-On-Demand:libopenssl1_0_0-1.0.2p-3.81.1",
+            "Image SLES12-SP5-EC2-On-Demand:openssl-1_0_0-1.0.2p-3.81.1",
+            "Image SLES12-SP5-EC2-SAP-BYOS:libopenssl1_0_0-1.0.2p-3.81.1",
+            "Image SLES12-SP5-EC2-SAP-BYOS:openssl-1_0_0-1.0.2p-3.81.1",
+            "Image SLES12-SP5-GCE-On-Demand:libopenssl1_0_0-1.0.2p-3.81.1",
+            "Image SLES12-SP5-GCE-On-Demand:openssl-1_0_0-1.0.2p-3.81.1",
             "SUSE Linux Enterprise Server 12 SP5:libopenssl-1_0_0-devel-1.0.2p-3.81.1",
             "SUSE Linux Enterprise Server 12 SP5:libopenssl1_0_0-1.0.2p-3.81.1",
             "SUSE Linux Enterprise Server 12 SP5:libopenssl1_0_0-32bit-1.0.2p-3.81.1",

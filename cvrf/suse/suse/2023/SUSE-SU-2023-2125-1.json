@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES12-SP5-Azure-Basic-On-Demand-2023-2125,Image SLES12-SP5-Azure-Standard-On-Demand-2023-2125,SUSE-2023-2125,SUSE-SLE-Module-Containers-12-2023-2125",
+      "Text": "Image SLES12-SP5-Azure-Basic-On-Demand-2023-2125,Image SLES12-SP5-Azure-Standard-On-Demand-2023-2125,Image SLES12-SP5-EC2-ECS-On-Demand-2023-2125,Image SLES12-SP5-EC2-On-Demand-2023-2125,Image SLES12-SP5-GCE-On-Demand-2023-2125,SUSE-2023-2125,SUSE-SLE-Module-Containers-12-2023-2125",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -46,6 +46,21 @@
       {
         "ProductReference": "containerd-1.6.19-16.79.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.19-16.79.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.19-16.79.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.19-16.79.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
         "RelationType": "Default Component Of"
       },
       {

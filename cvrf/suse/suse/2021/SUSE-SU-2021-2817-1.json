@@ -2674,6 +2674,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
         "RelationType": "Default Component Of"
@@ -2699,6 +2704,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-GCE",
         "RelationType": "Default Component Of"
@@ -2724,6 +2734,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-Azure",
         "RelationType": "Default Component Of"
@@ -2749,6 +2764,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "python3-asn1crypto-0.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM",
         "RelationType": "Default Component Of"
@@ -2770,6 +2790,11 @@
       },
       {
         "ProductReference": "python3-pycparser-2.17-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM",
         "RelationType": "Default Component Of"
       },
@@ -2795,6 +2820,11 @@
       },
       {
         "ProductReference": "python3-pycparser-2.17-3.2.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-requests-2.24.0-3.2.1",
         "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
@@ -7211,31 +7241,37 @@
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:python3-cryptography-2.8-10.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-Azure:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:python3-cryptography-2.8-10.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:python3-cryptography-2.8-10.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP3-Micro-5-1-BYOS-GCE:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:python3-cryptography-2.8-10.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-Azure:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:python3-cryptography-2.8-10.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:python3-cryptography-2.8-10.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:python3-pyasn1-0.4.2-3.2.1",
             "Image SLES15-SP3-Micro-5-2-BYOS-GCE:python3-pycparser-2.17-3.2.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:python3-requests-2.24.0-3.2.1",
             "Image SLES15-SP3-Micro-BYOS-GCE:python3-asn1crypto-0.24.0-3.2.1",
             "Image SLES15-SP3-Micro-BYOS-GCE:python3-cffi-1.13.2-3.2.5",
             "Image SLES15-SP3-Micro-BYOS-GCE:python3-cryptography-2.8-10.1",
