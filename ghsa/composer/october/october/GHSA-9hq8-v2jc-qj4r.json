@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2023-08-04T23:08:06Z",
+  "UpdatedAt": "2023-08-13T05:02:31Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "october/october"
@@ -44,7 +44,7 @@
     "PublishedAt": "2022-05-17T04:08:19Z",
     "Severity": "MODERATE",
     "Summary": "October CMS XSS In Caption Tag of Profile",
-    "UpdatedAt": "2023-08-04T23:08:06Z",
+    "UpdatedAt": "2023-08-13T05:02:31Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
